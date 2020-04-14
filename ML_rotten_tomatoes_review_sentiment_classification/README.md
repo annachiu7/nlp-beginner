@@ -40,7 +40,7 @@ text2: [1, 1, 1, 0, 1]
 text3: [2, 2, 2, 1, 1]  
 
 Advantages:  
-+ Simple
++ Simple  
 Disadvantages:  
 - Too many features if the volcab is large
 - Disregards grammar and word order
@@ -48,9 +48,9 @@ Disadvantages:
 #### N-gram
 N-gram can be seen as an improvement to the bag-of-word model, which takes n words next to each other in the text.
 
-Using the above text1: I have a mac.
-2-gram Volcab: ['I have', 'have a', 'a mac']
-Presentation: [1, 1, 1]
+Using the above text1: I have a mac.  
+2-gram Volcab: ['I have', 'have a', 'a mac']  
+Presentation: [1, 1, 1]  
 
 ### 训练、验证、测试集
 https://easyai.tech/ai-definition/3dataset-and-cross-validation/
