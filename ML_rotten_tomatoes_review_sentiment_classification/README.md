@@ -29,17 +29,19 @@ The sentiment labels are:
 #### Bag-of-word (BOW)
 In this model, a text is represented as a bag of its words, where the occurence of each word is used as a feature.
 
-Example:
-text1: I have a mac.
-text2: I have a book.
-text3: I have a mac. I have a book.
+Example:  
+text1: I have a mac.  
+text2: I have a book.  
+text3: I have a mac. I have a book.  
 
-Presentation with the volcabulary: ['I', 'have', 'a', 'mac', 'book']:
-text1: [1, 1, 1, 1, 0]
-text2: [1, 1, 1, 0, 1]
-text3: [2, 2, 2, 1, 1]
+Presentation with the volcabulary: ['I', 'have', 'a', 'mac', 'book']:  
+text1: [1, 1, 1, 1, 0]  
+text2: [1, 1, 1, 0, 1]  
+text3: [2, 2, 2, 1, 1]  
 
+Advantages:  
 + Simple
+Disadvantages:  
 - Too many features if the volcab is large
 - Disregards grammar and word order
 
@@ -58,8 +60,8 @@ https://easyai.tech/ai-definition/3dataset-and-cross-validation/
 3. 超参数越少，或者超参数很容易调整，那么可以减少验证集的比例，更多的分配给训练集。
 
 ### 评估指标 Evaluation
-Accuracy: The p of correct predictions among all test data.
-Precision (sensitivity): The p of actual class-i data among all predicted class-i data.
+Accuracy: The p of correct predictions among all test data.  
+Precision (sensitivity): The p of actual class-i data among all predicted class-i data.  
 Recall: The p of correct predictions out of all actual class-i data.
 
 F1=(2×Precision×Recall)/Precision+Recall）
