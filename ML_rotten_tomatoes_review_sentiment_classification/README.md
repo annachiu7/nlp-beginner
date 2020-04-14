@@ -41,6 +41,7 @@ text3: [2, 2, 2, 1, 1]
 
 Advantages:  
 + Simple  
+
 Disadvantages:  
 - Too many features if the volcab is large
 - Disregards grammar and word order
@@ -62,6 +63,5 @@ https://easyai.tech/ai-definition/3dataset-and-cross-validation/
 ### 评估指标 Evaluation
 Accuracy: The p of correct predictions among all test data.  
 Precision (sensitivity): The p of actual class-i data among all predicted class-i data.  
-Recall: The p of correct predictions out of all actual class-i data.
-
+Recall: The p of correct predictions out of all actual class-i data.  
 F1=(2×Precision×Recall)/Precision+Recall）
